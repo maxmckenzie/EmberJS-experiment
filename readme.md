@@ -15,3 +15,10 @@ We will value:
 - Clean, effective, elegant code
 - Reusable, well-structured markup and CSS architecture
 - Correctness of the total amount results according to the behaviour exposed
+
+
+# Dependancies pre-install
+- direnv `brew install direnv` then `direnv allow` in the route of the directory
+> why? i find it incredably annoying having to deal with global installations of node modules.
+> They conflict and it gets messy so the export PATH env var in /envrc tells node to run from the route directoy.
+> i use it all the time now. Its very useful
