@@ -2,8 +2,10 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    addExpense(){
+    addExpense() {
       console.log('addExpense');
+      console.log(this.get('store'));
+
     },
   }
 });

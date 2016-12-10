@@ -3,7 +3,7 @@ Feature: Expense tracking
     Given I visit the url "/"
 
     Scenario: as a user i want to add an expense
-      When I enter the title, description and category
+      When I enter the title, description, price and category
       Then I expect to see it saved in my expenses with the total including tax
       And If its a new category I want to be prompted to add a tax rate to the new expense
 
