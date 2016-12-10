@@ -1,0 +1,16 @@
+{{yield}}
+
+<div class="expense">
+  title
+  <input type="text" name="" value="">
+  description
+  <textarea name="name" rows="8" cols="80"></textarea>
+  category
+  <select class="" name="">
+    <option value="">category</option>
+  </select>
+  <button type="button" name="button" {{action 'deleteExpense'}}>deleteExpense</button>
+  <button type="button" name="button" {{action 'editExpense'}}>editExpense</button>
+</div>
+
+<button type="button" name="button" {{action 'addExpense'}}>add</button>
