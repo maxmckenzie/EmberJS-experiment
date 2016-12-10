@@ -1,18 +1,18 @@
 Feature: Expense tracking
-  Background: as a user i want to track my exspences
+  Background: as a user i want to track my expenses
     Given I visit the url "/"
 
-    Scenario: as a user i want to add an expence
+    Scenario: as a user i want to add an expense
       When I enter the title, description and category
-      Then I expect to see it saved in my expences with the total including tax
-      And If its a new category I want to be prompted to add a tax rate to the new expence
+      Then I expect to see it saved in my expenses with the total including tax
+      And If its a new category I want to be prompted to add a tax rate to the new expense
 
-    Scenario: Total Exepnses
+    Scenario: Total expenses
       Given I am on the dashboard
-      Then i expext to see a total for all expenses
+      Then i expect to see a total for all expenses
 
     Scenario: Total Expenses per category
       Given I am on the dashboard
-      Then i expext to see a list of each category plus the total value of expenses in that cetegory
+      Then i expect to see a list of each category plus the total value of expenses in that category
 
-    Scenario: Bouns Feature?
+    Scenario: additional Feature?
