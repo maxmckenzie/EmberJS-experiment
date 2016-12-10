@@ -2,14 +2,11 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   actions: {
-    addExpense(){
-      console.log('thing');
-    },
     editExpense(){
-      console.log('thing');
+      console.log('editExpense');
     },
     deleteExpense(){
-      console.log('thing');
+      console.log('deleteExpense');
     },
   }
 });
